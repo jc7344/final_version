@@ -1,0 +1,168 @@
+#mapContainer {
+  width: 100%;
+  height: 500px;
+  display: inline-block;
+}
+
+#map2 { 
+  width: 100%;
+  height: 500px;
+  display: inline-block;
+}
+
+#sidebar {
+  display: inline-block;
+  position: absolute;
+  padding: 15px;
+  background: #cdcdcd;
+  width: 50%;
+  height: 470px;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 10px;
+  color: #FFFFFF;
+  font-family: 'Fira Sans', sans-serif;
+  background-position-y: -10px;
+}
+/*Creating colors for buttons */
+.black-background {
+  background-color:#bdbdbd;
+  border-color:#bdbdbd ;
+}
+.white {
+  color:#ffffff;
+}
+
+.black-background:hover {
+  background-color:#525252 ;
+  border-color: #525252;
+}
+.black-background:click {
+  background-color: #525252;
+  border-color: #525252;
+}
+
+
+/*Overrides/ Extends Bootstrap Styles */
+
+h2 {
+  margin: 0 0 25px 0;
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: 50px;
+  
+  margin: 0 0 25px 0;
+}
+h3{
+  font-family: 'Fira Sans', sans-serif;
+  color:#de2d26;
+}
+
+.text{
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.jumbotron{
+  background-image: url('https://github.com/jc7344/final_project/blob/master/Santiago1.jpg?raw=true');
+  background-size: 1400px 300px
+  background-repeat: no-repeat;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color:white;
+  
+}
+
+   /* popup */
+.leaflet-popup-content {
+  max-width: 100%;
+  max-height: 100%;
+  img-align: center;
+  width:auto !important;
+
+}
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h6 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.legend .circle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: 7px;
+}
+
+/* End Overrides/ Extends Bootstrap Styles */
+
+
+/*Custom Navbar Styling*/
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(158, 158, 158, 1);
+    border-width: 1px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #9e9e9e;
+}
