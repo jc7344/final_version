@@ -1,0 +1,151 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Final Assignment</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<!-- Begin Bootstrap Navbar -->
+<body>
+    <div class="navbar navbar-light bg-faded" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-icon-container">
+            <a href="#" class="navbar-icon pull-right visible-xs" id="nav-btn"><i class="fa fa-bars fa-lg white"></i></a>
+            <a href="#" class="navbar-icon pull-right visible-xs" id="sidebar-toggle-btn"><i class="fa fa-search fa-lg white"></i></a>
+          </div>
+          <a class="navbar-brand" href="#">Dhanbad Roads Project</a>
+        </div>
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://jc7344.github.io/hw4_jc7344/">Major Intersections</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- End Bootstrap Navbar -->
+
+
+<!-- Bootstrap JumboTron -->
+
+<div class="jumbotron" id="jumbo">
+  <div class="container">
+    <h1>Dhanbad <br/>
+    Roads Project</h1>
+    <p class="lead">Advanced Project of Internationa Development. Robert F. Wagner and The World Bank Group</p>
+    <div class="text"></div>
+    <p><a class="#" href="#" role="#"></a></p>
+  </div>
+</div>
+
+<!-- End Bootstrap JumboTron -->
+    
+    <div class="btn-group btn-group-justified">
+          <a type="button" class="btn btn-primary black-background white study-area"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Study Area map  </a>
+          <a type="button" class="btn btn-primary black-background white robert-favorite"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Land Use map</a>
+          <a type="button" class="btn btn-primary black-background white fernanda-favorite"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Data </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Boostrap Column Layout -->
+<div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>About the project</h2>
+          <p>Dhanbad, known as the Coal Capital of India, is one of the largest industrial towns of Jharkhand State. It has coal mines occupying nearly half of the area under the control of Dhanbad Municipal Corporation. In this context, a proposed loan from the World Bank would be intended partly to improve the city’s road network, and public transport systems. The Comprehensive Mobility Plan for Dhanbad, a master plan prepared by the government of Jharkhand, and consultations with multiple stakeholders led to the formulation of this urban infrastructure development  project. The World Bank South Asian Regional Unit engaged the NYU Capstone team to review the Comprehensive Mobility Plan and the associated project report containing the consultant’s assessments on the scope and magnitude of the proposed road improvements. In January 2017, the Capstone team traveled to Dhanbad, where they conducted multiple site visits and interviews with key stakeholders. Data gathered from this fieldwork was used to identify areas for improvement and advance project goals. Ultimately, the Capstone team's research supported the development of innovative initiatives —such as contextual planning, multi-purpose programming, solar lighting, and other urban design solutions—that will help tackle the social, and environmental challenges of implementing the Dhanbad Roads project. </p>
+        </div>
+      <hr>
+
+      <footer>
+      </footer>
+    </div>
+<!-- End Boostrap Column Layout-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="custom-h2" id="top">The study area</h2>
+      <button type="button" class="btn btn-danger reset">Back to top</button>
+
+  <div id="mapContainer">
+  </div>
+   <p>This preliminary report compiles observations gathered by the team during a series of site visits surrounding. Phase One of the Dhanbad roads project. All initial analysis and remarks will focus on a 400-meter segment of Road 13 located between Birsa Munda Chowk and Joraphatak Chowk (J13-4). Road 13 displays a diverse array of land-uses and users along the streets as they are shared by pedestrians, cars, rickshaws, auto-rickshaws, trucks and street vendors. The distinctive nature of Road 13 was highlighted by the Dhanbad roads’ DPR land use map which is exemplified by the selected 400-meter segment.</p>
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">      
+        </div>
+        <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="custom-h2" id="land">Existing land use</h2>
+      <button type="button" class="btn btn-danger reset">Back to top</button>
+    </div>
+  <div id="map2"></div>
+          <p>The existing land-use observed in study area is predominantly residential and Mines. Since there is no existing land-use map available for the study area, Consultants have prepared the same based on the reconnaissance survey. The existing land-use for the study area is presented in the map above</p>
+
+<div class="container" id='foot'>
+          <h2>Data</h2>
+      <p>Given the fact that Dhanbad Roads project is an urban infrastructure development initiative, it is crucial to analyze both the impacts of roadway upgrades on the existing line use and the potential alteration of traffic patterns. Our team estimates the creation of a commercial corridor along Bank road (and specifically along the segment between Joraphatak Chowk and Birsa Munda Chowk junctions) and flags a potential increase in accidents involving pedestrians and two-wheel vehicles. These projections, however, will be refined by including the data gathered by the team in the city of Dhanbad.</p>     
+     <button type="button" class="btn btn-danger reset">Back to top</button>     
+   <div class="row">
+        <<div style="width: 490px; float:left;">
+           <canvas id="lineChart" height="400" width="400"></canvas>
+        </div>
+   <div class="col-xs-6">
+<div style="width: 490px; height: 300px;float:right;">
+<canvas id="barChart" height="400" width="400"></canvas>
+</div>
+</div>   
+  <footer class="footer">
+      <div class="container">
+        <div class="leaflet-control-attribution leaflet-control"><span class="hidden-xs">Created by <a href="https://github.com/jc7344">Santiago Carrillo</a> | </span><a href="#" onclick="$(&quot;#attributionModal&quot;).modal(&quot;show&quot;); return false;">Attribution</a></div></div></div>
+
+      </div>
+    </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/data2.js"></script>
+  <script src="js/districts.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
